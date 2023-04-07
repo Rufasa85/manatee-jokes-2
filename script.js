@@ -17,3 +17,8 @@ function showPunchline() {
 
 
 punchlineBtn.addEventListener("click", showPunchline)
+function fetchJoke(){
+    fetch("https://manateejokesapi.herokuapp.com/manatees/random").then((data) => data.json()).then((data)=>{
+        
+    })
+}
